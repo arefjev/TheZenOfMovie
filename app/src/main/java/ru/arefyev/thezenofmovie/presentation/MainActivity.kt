@@ -1,4 +1,4 @@
-package ru.arefyev.thezenofmovie
+package ru.arefyev.thezenofmovie.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    Greeting("Greg")
                 }
             }
         }
@@ -38,6 +38,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     TheZenOfMovieTheme {
-        Greeting("Android")
+        Greeting("Greg0ry")
     }
 }
