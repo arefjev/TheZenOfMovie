@@ -10,7 +10,7 @@ class MovieRepositoryImpl @Inject constructor(
 ) : MovieRepository {
 
     override suspend fun getMovies(): MoviePopularDto {
-        TODO("Not yet implemented")
+        return api.getMoviesPopular()
     }
 
 }
